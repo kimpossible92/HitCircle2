@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5330328407273623179
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7987852584088588601, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_Size.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987852584088588601, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987852584088588601, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987852584088588601, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987852584088588601, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029220, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029222, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: Circle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029222, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: Handle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321805563050029223, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5084c2a91a889a41b1116425419d783, type: 3}
+    - target: {fileID: 8321805563050029242, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+      propertyPath: m_Name
+      value: LemonK
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4841267459773583383, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9abd6d36cbd710459d6916e91fd2c22, type: 3}
