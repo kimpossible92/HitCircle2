@@ -131,9 +131,10 @@ namespace Gameplay.ShipSystems
             {
                 entireRazor = true;
                 move = false;
-                transform.SetParent(Circle.transform);
+                if (Circle != null) { transform.SetParent(Circle.transform); }
+                else { Destroy(gameObject); }
                 Vibration.Vibrate();
-                _playerKnife.VisibleEffect();
+                if(_playerKnife)_playerKnife.VisibleEffect();
                 //GetComponent<MovementSystem>().enabled = false;
             }
 
@@ -147,7 +148,10 @@ namespace Gameplay.ShipSystems
             {
                 transform.SetParent(RotateGO.transform);
                 StartCoroutine(StartAnimateRotate(gameObject));
-                FindObjectOfType<PlayerKnife>().BackUI();
+                if (FindObjectOfType<PlayerKnife>() != null)
+                {
+                    FindObjectOfType<PlayerKnife>().BackUI();
+                }
             }
         }
     }

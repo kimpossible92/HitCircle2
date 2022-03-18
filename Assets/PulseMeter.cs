@@ -31,7 +31,11 @@ public class PulseMeter : MonoBehaviour
     public void SetVisibleApple()
     {
         int RandomApple = UnityEngine.Random.Range(0, 4);
-        if (RandomApple == 1) { _apple.gameObject.SetActive(true); }
+        if (RandomApple == 1) 
+        {
+            _apple.gameObject.SetActive(true);
+            if (_knifeWeapon.Length > 0) { foreach (var _k in _knifeWeapon) { _k.gameObject.SetActive(true); _k.GetComponent<Gameplay.ShipSystems.MovementSystem>().OClone = true; } }
+        }
         else 
         {
             _apple.gameObject.SetActive(false);

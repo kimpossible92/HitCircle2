@@ -106,6 +106,8 @@ namespace Gameplay.ShipName
             pointrot += Input.GetAxis("Horizontal") * Time.deltaTime * -100;
             #region MouseHeel
             movementSystem.RotateGO = RotateGO;
+            movementSystem.Circle = Circle;
+            movementSystem.Handle = gameObject;
             foreach (var _apple in FindObjectsOfType<Apple>())
             {
                 _apple.RotateGO = RotateGO;
